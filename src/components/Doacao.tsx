@@ -15,11 +15,7 @@ export default function Doacao() {
                 <h2>
                     CHAVE PIX
                 </h2>
-                <img
-                    className="w-full max-w-[320px] sm:max-w-[360px] md:max-w-[420px] h-auto mx-auto"
-                    src="/qrCode_pix.jpeg"
-                    alt="qrcode"
-                />
+                <img className="w-80 h-80 m-auto" src="/qrCode_pix.jpeg" alt="qrcode" />
                 <p>Nome: Josiane Souza Matos</p>
                 <p>Chave: 71991679438</p>
             </div>

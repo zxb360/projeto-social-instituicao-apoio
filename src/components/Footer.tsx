@@ -69,7 +69,7 @@ export default function Footer() {
                     <div className="mt-4 flex flex-col items-center gap-2 text-sm opacity-80">
                         <p>Desenvolvido por Jaeder Azevedo - Oh Ziza enterprise Jarves</p>
                         <img
-                            className="h-10 w-auto"
+                            className="h-10 w-10"
                             src="/logo_jarves_ziza.png"
                             alt="Logo Jarves Ziza"
                         />
