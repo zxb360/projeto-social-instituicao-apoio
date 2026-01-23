@@ -5,7 +5,7 @@ export default function Header() {
             <img className="w-16 rounded-full" src="./logo_apoio_hospitalar.png" alt="logo" />
             <h1 className="font-serif text-lg font-bold text-[#2F7D6D]">Instituição Apoio</h1>
             <nav className="flex items-center gap-4">
-                <a href="https://www.tiktok.com/search?q=%40apoiohospitalar&t=1766866543602" target="_blank" >
+                <a href="https://www.tiktok.com/@apoiohospitalar" target="_blank" >
                 <img className="w-12" src="/icone_tiktok.png" alt="tiktok" /></a>
                 <a href="https://www.instagram.com/_conexao_solidaria_/?igsh=YTJ1bWtmNmVlMHRt" target="_blank" >
                 <img className="w-12" src="/icone_instagram.jpeg" alt="instagram" /></a>
