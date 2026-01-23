@@ -1,7 +1,7 @@
 export default function Doacao() {
   return (
     <>
-        <section className="px-50 py-12 max-w-6xl mx-auto">
+        <section className="px-6 sm:px-8 lg:px-12 py-12 max-w-6xl mx-auto">
             <h2 className="font-serif text-4xl mb-4">Doa&ccedil;&otilde;es</h2>
             <h3>Uma pequena ajuda pode ser o ponto de virada
                 na vida de alguém. Sua contribuição mantém esse 
@@ -15,7 +15,11 @@ export default function Doacao() {
                 <h2>
                     CHAVE PIX
                 </h2>
-                <img className="w-80 h-80 m-auto" src="/qrCode_pix.jpeg" alt="qrcode" />
+                <img
+                    className="w-full max-w-[320px] sm:max-w-[360px] md:max-w-[420px] h-auto mx-auto"
+                    src="/qrCode_pix.jpeg"
+                    alt="qrcode"
+                />
                 <p>Nome: Josiane Souza Matos</p>
                 <p>Chave: 71991679438</p>
             </div>
