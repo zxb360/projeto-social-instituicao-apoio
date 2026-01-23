@@ -1,4 +1,11 @@
 export default function Hero() {
+  const handleScrollToHelp = () => {
+    const target = document.getElementById("ajudar");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <>
         <section className="text-center px-6 py-20 bg-[#F2F2F2]">
@@ -7,7 +14,11 @@ export default function Hero() {
             <p className="max-w-xl mx-auto mb-6 text-[#6B6B6B]">
                 Pequenas atitudes geram grandes transformações. Nosso projeto nasce do cuidado com pessoas e da vontade de construir um futuro mais humano.
             </p>
-            <button className="px-6 py-3 rounded-xl bg-[#B22222] text-white hover:opacity-90">
+            <button
+              type="button"
+              onClick={handleScrollToHelp}
+              className="px-6 py-3 rounded-xl bg-[#B22222] text-white hover:opacity-90"
+            >
             Quero ajudar agora
             </button>
         </section>

@@ -7,6 +7,7 @@ import HistoryInst from './components/HistoryInst';
 import Help from './components/Help';
 import Footer from './components/Footer';
 import Doacao from './components/Doacao';
+import StoryBlack from './components/StoryBlack';
 
 function App() {
   return (
@@ -20,12 +21,13 @@ function App() {
         <Banner />
       {/* PILARES */}
         <Pilares />
-      {/* HISTÓRIA */}
-        <HistoryInst />
+      {/*  */}
+        <StoryBlack />
       {/* COMO AJUDAR */}
         <Help />
       {/* DOAÇÂO */}
         <Doacao />
+        <HistoryInst />
       {/* FOOTER */}
         <Footer />
     </div>

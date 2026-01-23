@@ -5,7 +5,7 @@ export default function Pilares() {
   return (
     <>
         <section className="px-6 py-16 max-w-6xl mx-auto">
-            <h3 className="ont-serif text-4xl mb-4 py-10">
+            <h3 className="font-serif text-4xl mb-4 py-10">
                 Como fazemos a diferença
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
