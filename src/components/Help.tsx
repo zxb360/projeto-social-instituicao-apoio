@@ -18,7 +18,7 @@ export default function Help() {
 
   return (
     <>
-        <section id="ajudar" className="px-6 py-16 bg-[#F2F2F2] text-center">
+        <section id="ajudar" className="px-6 py-16 bg-[#7EC29D] text-center">
             <h3 className="text-4xl font-serif mb-4 pb-11">
                 Faça parte e ajude quem precisa.
             </h3>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-        <footer id="contato" className="bg-[#222222] text-white px-6 py-12">
+        <footer id="contato" className="bg-[#7EC29D] text-white px-6 py-12">
             <div className="max-w-6xl mx-auto">
                 <div className="grid gap-10 md:grid-cols-3">
                     <div>
@@ -43,7 +43,7 @@ export default function Footer() {
                             Instagram:{" "}
                             <a
                                 className="underline underline-offset-4"
-                                href="https://instagram.com/"
+                                href="https://www.instagram.com/_apoiohospitalar/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -51,10 +51,10 @@ export default function Footer() {
                             </a>
                         </p>
                         <p className="text-sm">
-                            Facebook:{" "}
+                            Tiktok:{" "}
                             <a
                                 className="underline underline-offset-4"
-                                href="https://facebook.com/"
+                                href="https://www.tiktok.com/@apoiohospitalar"
                                 target="_blank"
                                 rel="noreferrer"
                             >
