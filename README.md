@@ -14,15 +14,10 @@
 ## 💡 Sobre o Projeto
 
 Este repositório abriga o front-end de um sistema dedicado a **instituições de apoio social**. O objetivo é criar uma interface **intuitiva, acessível e responsiva** para conectar usuários, instituições e facilitadores.  
-Esse projeto foi iniciado e está praticamente pronto, mas está aberto para melhorias e evoluções futuras. :contentReference[oaicite:0]{index=0}
+Esse projeto foi iniciado e finalizado, mas está aberto para melhorias e evoluções futuras. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 📸 Demonstração
-
-> Aqui você pode colocar GIFs ou screenshots da interface funcionando (basta hospedar na pasta e referenciar).
-
----
 
 ## 🧩 Funcionalidades Principais
 
@@ -46,3 +41,6 @@ Este projeto foi construído com:
 | **Vite** | Build ultrarrápida |
 | **ESLint** | Qualidade e padronização do código |
 | **CSS** | Estilos visuais da aplicação |
+
+
+Pequenas ações constroem grandes mudanças.
