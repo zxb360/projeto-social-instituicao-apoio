@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="https://img.shields.io/github/stars/zxb360/projeto-social-instituicao-apoio?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields.io/github/issues/zxb360/projeto-social-instituicao-apoio?style=for-the-badge" alt="Issues">
+  <img src="https://img.shields.io/github/license/zxb360/projeto-social-instituicao-apoio?style=for-the-badge" alt="License">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Instituição de Apoio Social 🌍</h1>
+<p align="center">
+  🚀 Uma aplicação web pensada para apoiar instituições sociais e promover impacto real na comunidade.
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Sobre o Projeto
 
-## React Compiler
+Este repositório abriga o front-end de um sistema dedicado a **instituições de apoio social**. O objetivo é criar uma interface **intuitiva, acessível e responsiva** para conectar usuários, instituições e facilitadores.  
+Esse projeto foi iniciado e está praticamente pronto, mas está aberto para melhorias e evoluções futuras. :contentReference[oaicite:0]{index=0}
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Demonstração
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> Aqui você pode colocar GIFs ou screenshots da interface funcionando (basta hospedar na pasta e referenciar).
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🧩 Funcionalidades Principais
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 💻 Interface moderna com React + TypeScript
+- 📱 Responsividade para dispositivos móveis
+- 🚨 Componentes organizados e reutilizáveis
+- 🛠️ Configuração com Vite + ESLint
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+*Se houver funcionalidades extras que você implementou, descreva aqui!* 🎯
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído com:
+
+| Tecnologia | Propósito |
+|------------|-----------|
+| **React** | Construção da interface |
+| **TypeScript** | Tipagem segura e escalável |
+| **Vite** | Build ultrarrápida |
+| **ESLint** | Qualidade e padronização do código |
+| **CSS** | Estilos visuais da aplicação |
