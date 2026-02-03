@@ -17,7 +17,7 @@ export default function Hero() {
             <button
               type="button"
               onClick={handleScrollToHelp}
-              className="px-6 py-3 rounded-xl bg-[#7EC29D] hover:bg-[#FF0000] transition-colors duration-200 hover:opacity-50 text-white"
+              className="px-6 py-3 rounded-xl bg-[#7EC29D]"
             > 
             QUERO AJUDAR
             </button>
